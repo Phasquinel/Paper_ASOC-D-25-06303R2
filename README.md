@@ -1,0 +1,31 @@
+
+###Definition of dataset variables####
+The variables contained in the Rev_Application_Data file are:
+
+TC = total cholesterol; 
+HDL = “good” cholesterol;
+GLI = stabilized glucose; 
+RCH = TC/HDL ratio;
+HBGy = glycosylated hemoglobin; 
+Age = measured in years;
+GEN = F (0) and M (1); 
+HEIGHT = measured in meters;
+Body WEIGHT (BW) = measured in kg; 
+BMI = body mass index;
+WAIST = measured in cm;
+HIPS = measured in cm. 
+
+######Definition of response variables for each of the applications#####
+Using the variables, the following response variables are obtained: 
+
+Response variable (y_1), which corresponds to the ratio between high-density lipoprotein (HDL) and total cholesterol (TC), denoted by HDL/TC, is distributed near the lower limit of the standard unit interval. (Y near zero)
+
+The response variable was considered an indicator of abdominal obesity (y_2), defined as the ratio of waist circumference to height. This measurement is within the standard unit range and is used to assess the risk of heart disease. (Y around 0.5)
+
+Response variable (y_3) - ratio between non-HDL cholesterol and total cholesterol, NHDL/TC. (Y near one)
+
+######Reproducibility of application II########
+
+The dataset (CCA_OX_CENTER) used in application II, when Y is around 0.5, is available in the repository.
+
+When running the code in Ox (Beta_Reg_Code_App_II), ensure that the dataset is in the same folder as the code. 
